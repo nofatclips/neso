@@ -1,0 +1,228 @@
+body {
+    font-family: Times New Roman, serif;
+    font-size: 18px;
+}
+
+.collegamento {
+    cursor: pointer;
+}
+
+.narranti-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.char-num {
+    font-weight: bold;
+}
+
+.nel-limite {
+    color: black;
+}
+
+.fuori-limite {
+    color: #f22;
+}
+
+textarea {
+    height: 350px;
+    width: 95%;
+    display: block;
+}
+
+.ortografia {
+    color: #f22;
+    text-decoration: underline;
+}
+
+.regola {
+    color: #f22;
+}
+
+@media screen and (max-width:1023px) {
+
+    .narranti-box {
+        padding: 5px;
+        margin: 10px 0;
+        font-family: Times New Roman, serif;
+        font-size: 1em;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px; 
+    }
+
+    #editor {
+        width: 200px;
+    }
+    
+    #stats {
+        width: 240px;
+    }
+    
+    #fork-me {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+
+    .narranti-box {
+        padding: 5px;
+        margin: 10px 0;
+        font-family: Times New Roman, serif;
+        font-size: 1em;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px; 
+    }
+
+    #editor {
+        width: 275px;
+    }
+
+    #stats {
+        width: 240px;
+    }
+
+    #fork-me {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+
+    .narranti-box {
+        margin: 10px 0;
+        padding: 20px;
+        font-family: Times New Roman, serif;
+        font-size: 1em;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        border-radius: 20px 20px 20px 20px; 
+    }
+
+}
+
+#editor {
+    background-color: #FD0;
+    color: #885555;
+}
+
+#editor > div {
+    margin: 8px 0;
+}
+
+#stats {
+    background-color: #00EAFF;
+    color: #555588;
+    max-width: 340px;
+}
+
+#pulsantiera {
+    height: 60px;
+    background-color: #88FF00;
+}
+
+.contenitore-pulsanti {
+    position: relative;
+}
+
+.seconda-riga-pulsanti {
+    top: 40px;
+}
+
+#pulsantiera a, #pulsantiera span {
+    color: #117711;
+    text-decoration: none;
+}
+
+#pulsantiera span:hover, #pulsantiera a:hover {
+    color: #EE3333;
+}
+
+#tastierino {
+    background-color: #D0F;
+    color: #885555;
+    vertical-align: top;
+    width: 240px;
+}
+
+#scarica-zippato, #opzioni-back {
+    background-color: #F0D;
+    color: black;
+    vertical-align: top;
+    text-align: center;
+}
+
+#scarica-zippato a, #opzioni-back span {
+    text-decoration: none;
+    color: black;
+}
+
+#scarica-zippato a:hover, #opzioni-back span:hover {
+    color: white;
+}
+
+#tastierino button {
+    font-family: Times New Roman, serif;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin: 2px;
+}
+
+#opzioni-impaginazione {
+    background-color: #FD0;
+    color: #885555;    
+}
+
+.tooltip {
+    background-color: rgba(16, 64, 192, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    color: #000088;
+    margin: 10px;
+    padding: 10px;
+}
+
+.lista-errori li:hover {
+    background-color: rgba(255, 255, 192, 0.4);
+}
+
+#jpeg-canvas {
+    vertical-align: top;
+    min-width: 414px;
+}
+
+.immagine-narranti {
+    width: 414px;
+    height: 709px;
+}
+
+.istruzioni {
+    position: relative;
+    top: -25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pulsante-sinistra {
+    position: absolute;
+    left: 10px;
+}
+
+.pulsante-destra {
+    position: absolute;
+    right: 10px;
+}
+
+#opzioni-impaginazione .allineamento {
+    display: inline;
+}
+
+#opzioni-impaginazione .allineamento label {
+    display: block;
+    padding: 4px;
+}
