@@ -121,21 +121,22 @@ angular.module("neCanvas", []).factory("neImager", ["$filter", "Data", "Settings
     
     var redrawSettimana = function() {
         if (!Data.laData) return;
+        var y = 550;
         context.font = 'bold 20pt ' + Stile.font;
         context.fillStyle = "black";
         context.textBaseline = 'alphabetic';
         context.textAlign = "center";
-        context.fillText("Settimana " + Data.laData, center.x-11, 569);
+        context.fillText("Settimana " + Data.laData, center.x-11, y-1);
         context.font = 'bold 20pt ' + Stile.font;
         context.fillStyle = "black";
         context.textBaseline = 'alphabetic';
         context.textAlign = "center";
-        context.fillText("Settimana " + Data.laData, center.x-9, 571);
+        context.fillText("Settimana " + Data.laData, center.x-9, y+1);
         context.font = 'bold 20pt ' + Stile.font;
-        context.fillStyle = Stile.color;
+        context.fillStyle = "white";
         context.textBaseline = 'alphabetic';
         context.textAlign = "center";
-        context.fillText("Settimana " + Data.laData, center.x-10, 570);
+        context.fillText("Settimana " + Data.laData, center.x-10, y);
     }
     
     var updateImage = function() {
