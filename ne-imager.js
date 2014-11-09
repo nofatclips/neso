@@ -139,9 +139,9 @@ angular.module("neCanvas", []).factory("neImager", ["$filter", "Data", "Settings
     }
     
     var updateImage = function() {
-        picture.src = canvas.toDataURL("image/png");
+        picture.src = canvas.toDataURL("image/jpeg");
         link.href = picture.src;
-        link.download = (Data.ilTitolo || "senzatitolo") + ".png";
+        link.download = (Data.ilTitolo || "senzatitolo") + ".jpeg";
     }
     
     var aggiorna = function() {

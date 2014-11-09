@@ -3,7 +3,7 @@
     <div id="editor" class="narranti-box" ng-controller="EditorController">
 
         <div id="riga-parole">
-          <label for="le-parole">Parole della settimana: 
+          <label for="le-parole">Parole della settimana orientata: 
             <div class="le-parole">
               <input id="parola1" 
                 class="una-parola" 
@@ -187,7 +187,7 @@
               </span>
             </li>
 
-            <li ng-show="missingWords()" errore="parolaMancante" spiegazione-errore = "Una regola &grave; una regola &grave; una regola.">
+            <li ng-show="missingWords()" errore="parolaMancante" spiegazione-errore = "Una regola &egrave; una regola &egrave; una regola.">
               Manca la parola 
               <span class="regola parola-mancante">
                 {{errors.parolaMancante.word}}
