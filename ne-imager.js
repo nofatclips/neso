@@ -150,7 +150,7 @@ angular.module("neCanvas", []).factory("neImager", ["$filter", "Data", "Settings
         redrawImage();
         redrawTitle();
         redrawText();
-        redrawName();
+        //redrawName();
         //redrawWords();
         //redrawNE();
         redrawSettimana();
