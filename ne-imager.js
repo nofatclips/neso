@@ -148,7 +148,7 @@ angular.module("neCanvas", []).factory("neImager", ["$filter", "Data", "Settings
     var aggiorna = function() {
         clearCanvas();
         redrawBackground();
-        redrawImage();
+        //redrawImage();
         redrawTitle();
         redrawText();
         //redrawName();
